@@ -5,9 +5,9 @@ class Program
     static void Main()
     {
         // Напишете програма, която пресмята N!*K!/(N-K)! за дадени N и K (1 < K < N).
-        Console.Write("Въведите N: (1<K<N) ");
+        Console.Write("Въведите N (1 < K < N): ");
         int n = Int32.Parse(Console.ReadLine());
-        Console.Write("Въведите K: (1<K<N) ");
+        Console.Write("Въведите K (1 < K < N):  ");
         int k = Int32.Parse(Console.ReadLine());
         int nMinusK = n - k;
 

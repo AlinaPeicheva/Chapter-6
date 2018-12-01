@@ -7,9 +7,9 @@ class Program
     {
         // Напишете програма, която пресмята N!/K! за дадени N и K (1<K<N).
 
-        Console.Write("Въведите N (1<K<N): ");
+        Console.Write("Въведите N (1 < K < N): ");
         int n = int.Parse(Console.ReadLine());
-        Console.Write("Въведите K (1<K<N): ");
+        Console.Write("Въведите K (1 < K < N): ");
         int k = int.Parse(Console.ReadLine());
 
         for (int i = n - 1; i > 0; i--)
